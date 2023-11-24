@@ -5,3 +5,45 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* HEADER */
+
+header{
+    height: 60px;
+    line-height: 30px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+
+    /* DEBUG */
+    background-color: #ADD8E6;
+}
+
+.nav-conteiner{
+    height: 30px;
+    width: 60%;
+    display: flex;
+    flex-shrink: 1;
+    
+    /* DEBUG */
+    border: 2px dashed black;
+    background-color: #DAA520;
+}
+
+a{
+    padding: 0 10px;
+}
+
+.link{
+    display: inline-block;
+    flex-grow: 2;
+    text-align: center;
+    
+    /* DEBUG */
+    border-left: 2px dashed black;
+    border-right: 2px dashed black;
+}
+
+.link.logo.login{
+    flex-grow: 1;
+}
