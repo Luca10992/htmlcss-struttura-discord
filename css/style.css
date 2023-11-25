@@ -129,3 +129,21 @@ body{
     background-color: #228B22;
     border: 2px dashed black;
 }
+
+.conteiner-section6{
+    width: 10%;
+    height: 410px;
+
+    /* DEBUG */
+    background-color: #20B2AA;
+    border: 2px dashed white;
+
+}
+
+.conteiner-section6.info{
+    width: 20%;
+
+    /* DEBUG */
+    background-color: #F08080;
+    border: 2px dashed black;
+}
