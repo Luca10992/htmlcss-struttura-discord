@@ -58,15 +58,16 @@ body{
     align-items: center;
 }
 
-/* DEBUG */
 .main.section1{
     height: 350px;
+
+    /* DEBUG */
     background-color: #00008B;
 }
 
 .main.section3{
+    flex-direction: row-reverse;
     
-
     /* DEBUG */
     background-color: #D3D3D3;
 }
@@ -95,11 +96,27 @@ body{
 }
 
 .conteiner{
-    display: flex;
-    justify-content: space-between;
     height: 370px;
-    width: 60%;
-
+    max-inline-size: 60%;
+    width: 30%;
+    display: flex;
+    
     /* DEBUG */
-    background-color: #00008B;
+    border: 2px dashed black;
+
+
+}
+
+.conteiner.img{
+    width: 35%;
+
+        /* DEBUG */
+    background-color: #1E90FF;
+}
+
+.conteiner.text{
+    width: 25%;
+
+        /* DEBUG */
+    background-color: #FFC0CB;
 }
