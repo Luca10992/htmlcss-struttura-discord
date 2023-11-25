@@ -11,7 +11,7 @@
 header{
     height: 60px;
     line-height: 30px;
-    padding-top: 15px;
+    padding-top: 11px;
     display: flex;
     justify-content: center;
 
@@ -20,13 +20,12 @@ header{
 }
 
 .nav-conteiner{
-    height: 30px;
+    height: 35px;
     width: 60%;
     display: flex;
     flex-shrink: 1;
     
     /* DEBUG */
-    border: 2px dashed black;
     background-color: #DAA520;
 }
 
@@ -40,10 +39,63 @@ a{
     text-align: center;
     
     /* DEBUG */
-    border-left: 2px dashed black;
-    border-right: 2px dashed black;
+    border: 2px dashed black;
 }
 
 .link.logo.login{
     flex-grow: 1;
+}
+
+body{
+    height: 100%;
+}
+
+.main{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* DEBUG */
+.main.section1{
+    height: 350px;
+    background-color: #00008B;
+}
+
+.main.section3{
+    
+
+    /* DEBUG */
+    background-color: #D3D3D3;
+}
+
+.main.section5{
+    height: 700px;
+
+    /* DEBUG */
+    background-color: #D3D3D3;
+}
+
+.main.section6{
+    height: 450px;
+
+    /* DEBUG */
+    background-color: #23272A;
+}
+
+.section-title{
+    height: 290px;
+    width: 620px;
+
+    /* DEBUG */
+    background-color: #EE82EE;
+    border: 2px dashed black;
+}
+
+.conteiner{
+    height: 370px;
+    width: 60%;
+    background-color: #00008B;
 }
