@@ -95,7 +95,11 @@ body{
 }
 
 .conteiner{
+    display: flex;
+    justify-content: space-between;
     height: 370px;
     width: 60%;
+
+    /* DEBUG */
     background-color: #00008B;
 }
