@@ -87,6 +87,7 @@ body{
     max-inline-size: 1519.2px;
     display: flex;
     justify-content: center;
+    align-items: center;
     background-color: white;
 }
 
@@ -288,7 +289,7 @@ body{
 
 .conteiner-section6{
     width: 150px;
-    height: 410px;
+    height: 300px;
     margin-top: 70px;
     line-height: 25px;
     color: white;
@@ -340,14 +341,17 @@ body{
 
 }
 
+.list-link:hover{
+    cursor: pointer;
+}
+
 /* Footer */
 
 .footer{
     max-inline-size: 1519.2px;
-    height: 75px;
+    height: 100px;
     display: flex;
     justify-content: center;
-    border-top: 1px solid white;
     background-color: #23272A;
 }
 
@@ -358,11 +362,27 @@ body{
     margin-top: 20px;
     width: 60%;
     height: 55px;
-    background-color: #7FFFD4;
+    padding-top: 20px;
+    border-top: 1px solid #414e6f;
+
+    /* background-color: #7FFFD4; */
 }
 
 .icon-button{
     padding: 3px 5px;
-    background-color: #FFB6C1;
-    border: 2px dashed black;
+    cursor: pointer;
+    /* background-color: #FFB6C1; */
+    /* border: 2px dashed black; */
+}
+
+.icon-button.register{
+    font-size: 12px;
+    border-radius: 20px;
+    background-color: #8EA1E1;
+    color: white;
+padding: 9px;}
+
+.icon-button.register:hover{
+    color: #abbefb;
+    background-color: #dce4ff;
 }
