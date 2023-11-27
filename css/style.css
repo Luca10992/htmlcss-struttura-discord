@@ -1,4 +1,4 @@
-/* GENERICS */
+/* !GENERICS */
 
 *{
     margin: 0;
@@ -11,7 +11,7 @@
     margin: 0 auto;
 }
 
-/* HEADER */
+/* !HEADER */
 
 header{
     font-size: 14px;
@@ -35,7 +35,7 @@ header{
     /* background-color: #DAA520; */
 }
 
-/* Sezione 1 */
+/* !Sezione 1 */
 
 a{
     padding: 0 10px;
@@ -148,7 +148,7 @@ body{
 
 }
 
-/* Sezione 2 */
+/* !Sezione 2 */
 
 .conteiner.section{
     height: 450px;
@@ -194,7 +194,13 @@ body{
     padding-top: 20px;
 }
 
-/* Sezione 3 */
+.wave{
+    display: inline-block;
+    width: 100%;
+    color: #F6F6F6;
+}
+
+/* !Sezione 3 */
 
 .main.section3{
     background-color: #F6F6F6;
@@ -217,7 +223,7 @@ body{
     margin-left: 80px;
 }
 
-/* Sezione 4 */
+/* !Sezione 4 */
 
 .conteiner.img.section4{
     background-image: url(../img/item3.svg);
@@ -225,7 +231,7 @@ body{
     background-position-y: -10px;
 }
 
-/* Sezione 5 */
+/* !Sezione 5 */
 
 .main.section5{
     height: 1000px;
@@ -278,12 +284,10 @@ body{
     background-color: #dce4ff;
 }
 
-/* Sezione 6 */
+/* !Sezione 6 */
 
 .main.section6{
     height: 370px;
-
-    /* DEBUG */
     background-color: #23272A;
 }
 
@@ -345,7 +349,7 @@ body{
     cursor: pointer;
 }
 
-/* Footer */
+/* !Footer */
 
 .footer{
     max-inline-size: 1519.2px;
